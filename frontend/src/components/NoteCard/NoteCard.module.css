@@ -1,0 +1,39 @@
+.note {
+  cursor: pointer;
+  padding: 2.5rem;
+  font-size: 1.6rem;
+  background-color: var(--color-note-background);
+  color: var(--color-note-text);
+  box-shadow: var(--standard-shadow);
+  border-radius: var(--border-radius);
+  transition: all ease-in-out .2s;
+  position: relative;
+}
+.note::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  content: "X";
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--color-note-text);
+  color: var(--color-note-background);
+  position: absolute;
+  border-radius: 100%;
+  font-size: 2rem;
+  right: -1rem;
+  top: -1rem;
+}
+
+.note:hover {
+  box-shadow: var(--active-shadow);
+}
+
+.note__subject {
+  font-weight: 700;
+  color: var(--color-note-subject);
+  padding-bottom: 1rem;
+  border-bottom: 2px dashed var(--color-note-line);
+  margin: 1rem 0;
+}

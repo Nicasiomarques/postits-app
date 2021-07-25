@@ -1,0 +1,19 @@
+button {
+  background-color: var(--color-primary);
+  display: inline-block;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  transition: all ease-in-out .2s;
+  box-shadow: var(--standard-shadow);
+  border: none;
+  border-radius: var(--border-radius);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button:hover {
+ background-color:var(--color-primary-light);
+ transform: translateY(-2px);
+ box-shadow:  var(--active-shadow);
+}

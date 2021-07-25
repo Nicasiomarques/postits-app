@@ -1,0 +1,31 @@
+.form__field::-webkit-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.form__field {
+  font-size: 1.6rem;
+  height: 4rem;
+  width: 100%;
+  border: none;
+  padding:  1rem 1.8rem;
+  background-color: var(--color-note-background);
+  color: var(--color-note-text);
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  box-shadow: var(--standard-shadow);
+  transition: all ease-in-out .3s;
+  outline: none;
+}
+
+.form__field:hover,
+.form__field:focus  {
+  background-color: #e4e4e4;
+  box-shadow: var(--active-shadow);
+  transform: scale(1.02);
+}
+
+.form__textarea {
+  min-height: 20rem;
+}

@@ -1,0 +1,12 @@
+.separator {
+  margin-top: 6vh;
+  width: 3px;
+  height: 80vh;
+  background-color: var(--color-primary);
+}
+
+@media only screen and (max-width: 768px) {
+  .separator {
+    display:  none;
+  }
+}
